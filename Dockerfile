@@ -2,4 +2,5 @@ FROM ruby:slim
 
 COPY . .
 
-CMD ["./participation.rb"]
+ENTRYPOINT ["./participation.rb"]
+CMD ["John","Smith"]
