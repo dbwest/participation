@@ -1,4 +1,4 @@
-#!/usr/local/bin/ruby -w
+#!/usr/bin/env ruby
 require 'yaml'
 
 prizes = YAML.load(File.read("./prizes.yaml"))
